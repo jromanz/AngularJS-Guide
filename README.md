@@ -18,3 +18,6 @@ TEMAS (con ejemplos)
 Capitulo del 1 al 10 usar tomcat, pruebas unitarias basadas en Karma y Protractor
 Capitulo 11 usando Node.js y MongoDB
 
+Instalar complemento bson en root directory: npm install bson
+
+correr proyecto de capitulo 11 en: localhost:6868
