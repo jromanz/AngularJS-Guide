@@ -1,0 +1,40 @@
+{
+    "name": "NodeBlog",
+    "version": "1.0.0",
+    "description": "NodeBlog",
+    "keywords": ["AngularJS", "Node.js", "Ken", "Williamson", "ExpressJS", "MongoDB"],
+    "author": {
+        "name": "Ken Williamson",
+        "email": "kenulborapublic@gmail.com",
+        "url": "http://www.ken-williamson.com"
+    },
+    "homepage": "http://www.ken-williamson.com",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/KenWilliamson/NodeMeanBlog_for_LearningAngularJS"
+    },
+    "engines": {
+        "node": ">= 0.6.0",
+        "npm": ">= 1.0.0"
+    },
+    "dependencies": {
+        "express": "~3.4.4",
+        "mongoose": "*"
+    },
+    "devDependencies": {
+        "karma": "*",
+        "karma-chrome-launcher": "*",
+        "karma-firefox-launcher": "*",
+        "karma-jasmine": "*",
+        "karma-junit-reporter": "*",
+        "karma-coverage": "*",
+        "karma-ng-html2js-preprocessor": "~0.1"
+    },
+    "bundleDependencies": [],
+    "private": true,
+    "main": "./server.js",
+    "bugs": {
+        "url": "null"
+    }
+
+}
