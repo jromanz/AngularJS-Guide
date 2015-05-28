@@ -1,0 +1,231 @@
+/* chapter3 mobile css3 */
+/* built for mobile */
+@media screen and (min-width: 1200px){
+.page-container{
+margin: 3% 0 0 0;
+padding: 0 0 0 0;
+width: 100%;
+}
+img {
+max-width: 50%;
+}
+.partner-form{
+width: 50%;
+margin: 0 0 0 25%;
+padding: 1% 5% 1% 5%;
+border-radius:7px;
+-moz-border-radius:7px; /* Firefox 3.6 and earlier */
+}
+.new-article-upload-wrapper{
+width: 30%;
+margin: 0 0 0 35%;
+padding: 1%;
+border-radius:7px;
+-moz-border-radius:7px; /* Firefox 3.6 and earlier */
+}
+.login-title{
+width: 100%;
+margin: 6% 0 1% 0;
+font-size: 18pt;
+}
+.config-form-wrapper{
+width: 60%;
+padding: 0 0 0 0;
+margin: 0 0 0 20%;
+border-radius:7px;
+-moz-border-radius:7px; /* Firefox 3.6 and earlier */
+}
+.comment-form-wrapper{
+width: 60%;
+padding: 0 0 0 0;
+margin: 0 0 0 20%;
+border-radius:7px;
+-moz-border-radius:7px; /* Firefox 3.6 and earlier */
+}
+.summary-cell{
+height: 300px;
+}
+.summary-cell-data{
+height: 250px;
+font-size: 12pt;
+}
+}
+@media screen and (max-width: 1200px){
+.page-container{
+margin: 5% 0 0 0;
+padding: 0 0 0 0;
+width: 100%;
+}
+img {
+max-width: 60%;
+}
+.nav-ds{
+margin: 0 0 0 0;
+}
+.nav-ds li{
+width: 11%;
+}
+.nav-ds li a{
+margin: 0 0 0 0;
+padding: 4% 0 4% 0;
+}
+.partner-form{
+width: 50%;
+margin: 0 0 0 25%;
+padding: 1% 5% 1% 5%;
+border-radius:7px;
+-moz-border-radius:7px; /* Firefox 3.6 and earlier */
+}
+.new-article-upload-wrapper{
+margin: 0 0 0 30%;
+padding: 1%;
+border-radius:7px;
+-moz-border-radius:7px; /* Firefox 3.6 and earlier */
+}
+.login-title{
+width: 100%;
+margin: 6% 0 1% 0;
+font-size: 18pt;
+}
+.config-form-wrapper{
+width: 60%;
+padding: 0 0 0 0;
+margin: 0 0 0 20%;
+border-radius:7px;
+-moz-border-radius:7px; /* Firefox 3.6 and earlier */
+}
+.comment-form-wrapper{
+width: 60%;
+padding: 0 0 0 0;
+margin: 0 0 0 20%;
+border-radius:7px;
+-moz-border-radius:7px; /* Firefox 3.6 and earlier */
+}
+.summary-cell{
+height: 300px;
+}
+.summary-cell-data{
+height: 250px;
+font-size: 12pt;
+}
+}
+@media screen and (max-width: 800px){
+.page-container{
+margin: 7% 0 0 0;
+padding: 0 0 0 0;
+width: 100%;
+}
+img {
+max-width: 70%;
+}
+.nav-ds{
+margin: 0 0 0 0;
+}
+.nav-ds li{
+width: 11%;
+}
+.nav-ds li a{
+margin: 0 0 0 0;
+padding: 4% 0 4% 0;
+}
+.partner-form{
+width: 60%;
+margin: 0 0 0 20%;
+padding: 1% 5% 1% 5%;
+border-radius:7px;
+-moz-border-radius:7px; /* Firefox 3.6 and earlier */
+}
+.new-article-upload-wrapper{
+width: 50%;
+margin: 0 0 0 25%;
+padding: 1%;
+border-radius:7px;
+-moz-border-radius:7px; /* Firefox 3.6 and earlier */
+}
+.login-title{
+width: 100%;
+margin: 6% 0 1% 0;
+font-size: 16pt;
+}
+.config-form-wrapper{
+width: 80%;
+padding: 0 0 0 0;
+margin: 0 0 0 10%;
+border-radius:7px;
+-moz-border-radius:7px; /* Firefox 3.6 and earlier */
+}
+.comment-form-wrapper{
+width: 80%;
+padding: 0 0 0 0;
+margin: 0 0 0 10%;
+border-radius:7px;
+}
+.summary-cell{
+height: 300px;
+}
+.summary-cell-data{
+height: 250px;
+font-size: 10pt;
+}
+}
+@media screen and (max-width: 450px){
+.page-container{
+margin: 12% 0 0 0;
+padding: 0 0 0 0;
+width: 100%;
+}
+img {
+max-width: 100%;
+}
+.nav-ds{
+margin: 0 0 0 0;
+}
+.nav-ds li{
+width: 15%;
+}
+.nav-ds li a{
+margin: 0 0 0 0;
+padding: 4% 0 4% 0;
+}
+.partner-form{
+width: 100%;
+margin: 0 0 0 0%;
+padding: 1% 5% 1% 5%;
+border-radius:7px;
+-moz-border-radius:7px; /* Firefox 3.6 and earlier */
+}
+.new-article-upload-wrapper{
+width: 100%;
+margin: 0 0 0 0%;
+padding: 1%;
+border-radius:7px;
+-moz-border-radius:7px; /* Firefox 3.6 and earlier */
+}
+.login-title{
+width: 100%;
+margin: 6% 0 1% 0;
+font-size: 14pt;
+}
+.config-form-wrapper{
+width: 100%;
+padding: 0 0 0 0;
+margin: 0 0 0 0;
+border-radius:7px;
+-moz-border-radius:7px; /* Firefox 3.6 and earlier */
+}
+.comment-form-wrapper{
+float: left;
+width: 100%;
+padding: 0 0 0 0;
+margin: 0 0 0 0;
+border-radius:7px;
+-moz-border-radius:7px; /* Firefox 3.6 and earlier */
+}
+.summary-cell{
+height: 150px;
+}
+.summary-cell-data{
+height: 120px;
+font-size: 6pt;
+}
+}
